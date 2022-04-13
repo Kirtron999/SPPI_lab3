@@ -8,11 +8,11 @@ class Ui_version(object):
         self.centralwidget.setObjectName("centralwidget")
 
         self.ver = QtWidgets.QLabel('Версия:')
-        self.name = QtWidgets.QLabel('Название:')
+        self.name = QtWidgets.QLabel('Наименование:')
         self.about = QtWidgets.QLabel('О программе:')
 
         self.verText = QtWidgets.QLabel('1.1.1 se')
-        self.nameText = QtWidgets.QLabel('ИС Гостиница')
+        self.nameText = QtWidgets.QLabel('ИС Спорткомплекс')
 
         self.btn_ext = QtWidgets.QPushButton(self.centralwidget)
 
