@@ -11,7 +11,7 @@ class Ui_version(object):
         self.name = QtWidgets.QLabel('Название:')
         self.about = QtWidgets.QLabel('О программе:')
 
-        self.verText = QtWidgets.QLabel('1.0.0 s')
+        self.verText = QtWidgets.QLabel('1.1.1 se')
         self.nameText = QtWidgets.QLabel('ИС Гостиница')
         self.aboutText = QtWidgets.QLabel('Версия программы для рядовых сотрудников')
 
