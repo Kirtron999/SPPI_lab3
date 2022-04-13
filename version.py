@@ -43,7 +43,8 @@ class Ui_version(object):
     def retranslateUi(self, version):
         _translate = QtCore.QCoreApplication.translate
         version.setWindowTitle(_translate("version", "version"))
-        self.btn_ext.setText(_translate("version", "На главную"))
+        self.btn_ext.setText(_translate("version", "Вернуться"))
+
 
 if __name__ == "__main__":
     import sys
