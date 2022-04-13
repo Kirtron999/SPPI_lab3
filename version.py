@@ -13,7 +13,6 @@ class Ui_version(object):
 
         self.verText = QtWidgets.QLabel('1.1.1 se')
         self.nameText = QtWidgets.QLabel('ИС Гостиница')
-        self.aboutText = QtWidgets.QLabel('Версия программы для рядовых сотрудников')
 
         self.btn_ext = QtWidgets.QPushButton(self.centralwidget)
 
@@ -44,7 +43,7 @@ class Ui_version(object):
     def retranslateUi(self, version):
         _translate = QtCore.QCoreApplication.translate
         version.setWindowTitle(_translate("version", "version"))
-        self.btn_ext.setText(_translate("version", "Назад"))
+        self.btn_ext.setText(_translate("version", "Вернуться"))
 
 if __name__ == "__main__":
     import sys
